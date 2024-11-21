@@ -6,7 +6,7 @@ public class Main {
         Prodotto libro = new Prodotto();
         libro.nome = "Achille";
         libro.prezzo = 10;
-        libro.iva = 22;
+        libro.iva = 0.22f;
         libro.descrizione = "libro";
 
         System.out.println(libro.mostraIlPrezzo());

@@ -4,18 +4,18 @@ public class Prodotto {
     int codice = (int)(Math.random() * 101);
     String nome;
     String descrizione;
-    int prezzo;
-    int iva;
+    float prezzo;
+    float iva;
 
 
 
 //* Metodi di prodotto
-    public int mostraIlPrezzo(){
+    public float mostraIlPrezzo(){
         return prezzo;
     }
 
-    public int prezzoComprensivoIva(){
-        return prezzo + (prezzo/100*iva);
+    public float prezzoComprensivoIva(){
+        return prezzo +(prezzo*iva);
     }
 
     public String nomeEsteso(){
